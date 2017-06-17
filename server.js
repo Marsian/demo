@@ -120,9 +120,7 @@ let MainApp = function() {
         }
 
         // Static files
-        self.app.use("/Assets", express.static(__dirname + "/Assets"));
-        self.app.use("/Template", express.static(__dirname + "/Template"));
-        self.app.use("/js-src", express.static(__dirname + "/js-src"));
+        self.app.use("/public", express.static(__dirname + "/public"));
         self.app.use("/node_modules", express.static(__dirname + "/node_modules"));
     };
 
