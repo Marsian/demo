@@ -11,7 +11,7 @@
   "main": "start.js",
   "scripts": {
     "preinstall": "npm prune",
-    "postinstall": "npm updates",
+    "postinstall": "npm update",
     "start": "node --use_strict start.js"
   },
   "author": {
