@@ -1,12 +1,26 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
-  "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "name": "Marsian",
+  "version": "1.0.0",
+  "description": "Mars Demo Website",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "react.js"
+  ],
   "private": true,
   "main": "start.js",
   "scripts": {
+    "preinstall": "npm prune",
     "start": "node --use_strict start.js"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "author": {
+    "name": "Yanxi Wang",
+    "email": "mars910209@gmail.com",
+    "url": "http://marswang.com/"
+  },
+
+  "dependencies": {
+    "express": "~4.15.3",
+    "body-parser": "~1.17.2"
+  }
 }
