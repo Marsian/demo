@@ -11,8 +11,7 @@
   "main": "start.js",
   "scripts": {
     "preinstall": "npm prune",
-    "postinstall": "npm update & npm run build",
-    "start": "node --use_strict start.js",
+    "postinstall": "npm run build",
     "dev": "webpack -d --watch",
     "build" : "webpack -p"
   },
