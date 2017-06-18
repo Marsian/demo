@@ -1,0 +1,13 @@
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    margin: 40px 0px;
+}
+
+.appContainer {
+    width: 40%;
+    margin: auto;
+    height: 400px;
+    border: black 1px solid;
+}

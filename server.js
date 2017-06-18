@@ -121,6 +121,7 @@ let MainApp = function() {
 
         // Static files
         self.app.use("/public", express.static(__dirname + "/public"));
+        self.app.use("/style", express.static(__dirname + "/style"));
         self.app.use("/node_modules", express.static(__dirname + "/node_modules"));
     };
 
