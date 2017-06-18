@@ -10,7 +10,7 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "postinstall": "npm run build",
+    "postinstall": "npm uninstall babel-core && npm install babel-core && npm run build",
     "start": "node --use_strict start.js",
     "dev": "webpack -d --watch",
     "build" : "webpack -p"
