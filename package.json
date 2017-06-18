@@ -10,7 +10,7 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "postinstall": "webpack -p",
+    "postinstall": "npm run build",
     "start": "node --use_strict start.js",
     "dev": "webpack -d --watch",
     "build" : "webpack -p"
