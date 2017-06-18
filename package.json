@@ -10,9 +10,8 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "preinstall": "npm prune & npm install",
-    "postinstall": "npm run build",
-    "start": "node --use_strict start.js",
+    "preinstall": "npm prune",
+    "start": "npm install & npm run build & node --use_strict start.js",
     "dev": "webpack -d --watch",
     "build" : "webpack -p"
   },
